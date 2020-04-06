@@ -21,4 +21,8 @@ class TestPart_B < Minitest::Test
         assert_equal("Billy Townsend", @team.coach())
     end
 
+    def test_add_player
+        assert_equal(5, @team.players.length())
+    end 
+
 end

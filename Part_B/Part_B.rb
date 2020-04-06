@@ -9,6 +9,9 @@ class Team
         @coach = coach
     end
 
+    def add_player(player)
+        players.length
+    end 
     
 
 end
